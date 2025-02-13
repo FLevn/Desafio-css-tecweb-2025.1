@@ -27,9 +27,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/* Você pode usar o CSS comentado abaixo, se ajudar */
-/* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+ .btn {
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -77,4 +75,4 @@ body {
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+}
