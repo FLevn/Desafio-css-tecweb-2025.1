@@ -26,7 +26,7 @@ Algumas informações úteis e dicas:
   display: flex;
   background-color: #f7d736;
   color: #2c2c2c;
-  padding: 10px 0;
+  padding: 10px;
   margin-top: 5px;
   text-align: flex-start;
   align-items: center;
@@ -140,16 +140,17 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
-  margin: 10px;
-  width: 100%;
+  justify-content: space-around;
+  margin-top: 10px;
+  width: 90%;
+  border: #2c2c2c 1px solid;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 15px;
+  margin: 5px;
   width: 12%;
   min-height: 120px;
   border-radius: 8px;
@@ -171,4 +172,68 @@ body {
   align-items: center;
   width: 100%;
   min-height: 80px;
+}
+
+.card-color-1 {
+  background-color: #ead3a7;
+}
+
+.card-color-2 {
+  background-color: #9de0f5;
+}
+
+.card-color-3 {
+  background-color: #ef89ba;
+}
+
+.card-color-4 {
+  background-color: #fae890;
+}
+
+.card-color-5 {
+  background-color: #abe9c1;
+}
+
+.card-rotation-1 {
+  transform: rotate(1deg);
+}
+
+.card-rotation-2 {
+  transform: rotate(2deg);
+}
+
+.card-rotation-3 {
+  transform: rotate(3deg);
+}
+
+.card-rotation-4 {
+  transform: rotate(4deg);
+}
+
+.card-rotation-5 {
+  transform: rotate(-1deg);
+}
+
+.card-rotation-6 {
+  transform: rotate(-2deg);
+}
+
+.card-rotation-7 {
+  transform: rotate(-3deg);
+}
+
+.card-rotation-8 {
+  transform: rotate(-4deg);
+}
+
+.card-rotation-9 {
+  transform: rotate(5deg);
+}
+
+.card-rotation-10 {
+  transform: rotate(-5deg);
+}
+
+.card-rotation-11 {
+  transform: rotate(0deg);
 }
