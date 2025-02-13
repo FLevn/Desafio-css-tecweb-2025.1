@@ -43,6 +43,27 @@ Algumas informações úteis e dicas:
   padding-left: 15px;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.form-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px;
+  width: 40%;
+  background-color: rgb(253, 253, 253);
+  border-radius: 8px;
+  box-shadow: #bcbbbb 0px 5px 10px 5px;
+  padding: 10px;
+}
+
 html,
 body {
   font-family: "Roboto", sans-serif;
